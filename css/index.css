@@ -1,0 +1,41 @@
+:root{
+    --colormain: #E31837;
+    --backgroundYellow: #EFBB40;
+    --fontMain: 'Nunito Sans', sans-serif;
+    --fontSecond: 'Montserrat', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fontMain);
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.fixed1 {
+
+
+}
+
+.judulkiri h3{
+    color: white;
+    background-color: var(--colormain);
+    font-weight: bold;
+}
+
+.judulkiri {
+
+}
+
+.navbarkanan{
+    
+}
+
+.navbarkanan ul{
+
+}
+
