@@ -382,3 +382,35 @@ body{
 .buttoncontent4{
     position: relative; 
 }
+
+
+.acontent5{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content5{
+    width: 400px;
+}
+
+
+.content5 h3{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content5 p{
+    word-spacing: 5px;
+}
+
+.foto5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.foto5{
+    width: 40%;
+}
+
