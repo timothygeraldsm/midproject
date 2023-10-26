@@ -414,3 +414,123 @@ body{
     width: 40%;
 }
 
+
+.acontent6{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.content6 h2{
+    font-weight: 900;
+    color: #222222bf;
+    font-size: 16px;
+}
+
+.content6 h3{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.imgbanyak{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h3 {
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+  
+.acontent7{
+    margin-top: 170px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around
+}
+
+.foto7 img{
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.foto7 {
+    /* width: 500px; */
+}
+
+.nutrition{
+    width: 50%;
+    margin-left: 50px;
+    background-color: #f2f9fd;
+    height: 700px;
+}
+
+
+.content7a h2{
+    text-align: center; 
+    font-weight: 800; 
+    margin-top: 30px;
+}
+
+.content7b h2{
+    text-align: center;
+    font-weight: 800; 
+    margin-top: 30px;
+}
+
+.content7a p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content7b p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.locations{
+    width: 50%;
+    background-color: #f2f9fd;
+    height: 700px;
+    /* background-color: #E31837; */
+}
+
+.foto8 img{
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.foto8 {
+   /* width: 500px;  */
+}
+
+.buttoncontent5 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttoncontent5 a{
+    background-color: var(--colormain);
+    border-radius: 60px;
+    color: white;
+    font-weight: 900;
+    padding: 15px 60px;
+}
+
+.buttoncontent6 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttoncontent6 a{
+    background-color: var(--colormain);
+    border-radius: 60px;
+    color: white;
+    font-weight: 900;
+    padding: 15px 60px;
+}
