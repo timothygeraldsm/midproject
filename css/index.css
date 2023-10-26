@@ -451,7 +451,7 @@ body{
     margin-top: 170px;
     display: flex;
     gap: 20px;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .foto7 img{
@@ -528,6 +528,61 @@ body{
 }
 
 .buttoncontent6 a{
+    background-color: var(--colormain);
+    border-radius: 60px;
+    color: white;
+    font-weight: 900;
+    padding: 15px 60px;
+}
+
+.acontent8{
+    margin-top: 170px;
+}
+
+.content8b{
+    display: flex;
+    gap: 30px;
+}
+
+.content8a h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content8a p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    display:inline;
+}
+
+.merah{
+    color: red;
+}
+
+.foto9 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.foto9 {
+    width: 390px;
+}
+
+.contentfoto9 h2{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttoncontent9 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttoncontent9 a{
     background-color: var(--colormain);
     border-radius: 60px;
     color: white;
