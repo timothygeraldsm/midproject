@@ -16,7 +16,7 @@
 }
 
 body{
-    padding-bottom: 1000px;
+    padding-bottom: 100px;
 }
 
 .container{
@@ -259,7 +259,7 @@ body{
 
 .content3bg{
     background-color: var(--backgroundYellow);
-    height: 600px;
+    height: 650px;
     padding-top: 50px;
 }
 
@@ -355,6 +355,7 @@ body{
 .content4 {
     padding-left: 100px;
     padding-top: 8px;
+    width: 500px;
 }
 
 .content4 h5{
@@ -416,6 +417,11 @@ body{
 .content5 h3{
     font-size: 48px;
     font-weight: 900;
+}
+
+.content5h3{
+    line-height: 50px;
+    margin-bottom: 30px;
 }
 
 .content5 p{
@@ -617,4 +623,163 @@ body{
     color: white;
     font-weight: 900;
     padding: 15px 60px;
+}
+
+.bg10{
+    background-color: #E31837;
+    width: 100%;
+    height: 290px;
+}   
+
+.acontent9{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.captionemail{
+    padding: 60px 160px;
+    line-height: 50px;
+}
+
+.captionemail h1 {
+    color: white;
+    font-weight: 800;
+}
+
+.captionemail p {
+    color: white;
+    font: 400;
+}
+
+.subscribemail{
+    display: flex;
+    justify-content
+}
+
+.textbox1 {
+  width: 70%;
+  padding: 12px 5px;
+}
+
+
+.email{
+    padding: 60px 0px;
+    margin-right: 100px;
+}
+
+.email p {
+    width: 600px;
+    font-size: 14px ;
+    color: white;
+    margin-top: 20px;
+}
+
+.email h4{
+    color: white;
+    font-weight: 900px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.emailsubs{
+    display: flex;
+    gap: 10px;
+}
+
+.button1{
+    background-color: var(--backgroundYellow);
+    border-radius: 60px;
+    color: black;
+    font-weight: 900;
+    padding: 15px 50px;
+    border-color: 0px;
+}
+
+.acontent10{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    /* background-color: #E31837; */
+}
+
+.logojolibee2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.logojolibee2{
+    width: 80px;
+    height: 80px;
+    margin-right: 100px;
+}
+
+.helpful{
+}
+
+.helpful h1{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.helpful ul li {
+    font-size: 16px;
+    line-height: 40px;
+    color: black;
+}
+
+.linkfooter a{
+    text-decoration: none;
+    color: black;
+}
+
+.banyaklink{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.button2 a{
+    background-color: var(--colormain);
+    border-radius: 60px;
+    color: white;
+    font-weight: 900;
+    padding: 15px 40px;
+    border-color: 0px;
+}
+
+.button2{
+    margin-top: 20px;
+}
+
+.wrapcontent11{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.acontent11 {
+}
+
+.acontent11 p {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #222222bf;
+    font-size: 14px;
+}
+
+.fotoacontent11 img{
+    width: 100%;
+    height: 100%;
+}
+
+.fotoacontent11 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    margin-right: 190px;
+    margin-top: 20px;
+
 }
