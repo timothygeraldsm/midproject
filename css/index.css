@@ -128,6 +128,7 @@ body{
 .acontent1{
     margin-top: 410px;
     display: flex;
+    justify-content: center;
 }
 
 .acontentbg{
@@ -203,6 +204,7 @@ body{
 
 .acontent2{
     margin: 70px 100px;
+    justify-content: center;
 }
 
 .foto2 {
@@ -264,31 +266,40 @@ body{
 .content3 {
     justify-content: center;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 80px;  
 }
 
 .acontent3{
+    justify-content: center;
+    display: flex;
 }
 
 .content3 h4{
     color:#222222bf;
     font: 16px;
     font-weight: 900;
-    padding-right: 100px;
+    justify-content: center;
+    /* background-color: green; */
+    text-align: center;
 }
 
 .content3 h1{
     color: black;
     font-size: 48px;
     font-weight: 900;
-    padding-right: 100px;
+    /* background-color: red; */
 }
 
 .content3 p{
     width: 100%;
-    text-align:center
-    padding-left: 110px;
+    text-align:center;
     margin-top: 20px;
+    /* background-color: #E31837; */
+    letter-spacing: 0.5px;
+}
+
+.content3paragraph{
+    width: 500px;
 }
 
 .buttoncontent3 a{
@@ -302,13 +313,15 @@ body{
 }
 
 .buttoncontent3 {
-    margin-top: 40px;
-    margin-left: -100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .embedvideo{
-    margin-top: 80px;
-    margin-left: -130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 
@@ -326,9 +339,11 @@ body{
 }
 
 .acontent4{
-    margin: 70px 100px;
+    /* margin: 70px 100px; */
     display: flex;
+    justify-content: center;
     gap: 20px;
+    margin-top: 60px;
 }
 
 .foto4 {
@@ -336,7 +351,6 @@ body{
     height: 500px;
 
 }
-
 
 .content4 {
     padding-left: 100px;
@@ -369,6 +383,9 @@ body{
 .buttoncontent4 {
     text-align: center;
     margin-top: 50px;
+    text-align: left;
+    /* background-color: #E31837; */
+    margin-left: 90px;
 }
 
 .buttoncontent4 a{
@@ -376,7 +393,7 @@ body{
     border-radius: 60px;
     color: white;
     font-weight: 900;
-    padding: 20px 60px;
+    padding: 15px 60px;
 }
 
 .buttoncontent4{
@@ -411,13 +428,22 @@ body{
 }
 
 .foto5{
-    width: 40%;
+    width: 500px;
+    height: 500px;
 }
 
 
 .acontent6{
-    margin-top: 50px;
+    margin-top: 170px; 
+}
+
+.container6{
     justify-content: center;
+    display: flex;
+}
+
+.content6{
+    /* background-color: red;   */
 }
 
 .content6 h2{
@@ -432,26 +458,26 @@ body{
 }
 
 .imgbanyak{
+    /* background-color: yellow; */
+    margin-top: 20px;
     display: flex;
     gap: 100px;
     text-align: center;
 }
 
-.card img{
+.card1 img{
     width: 100%;
 }
 
-.card h3 {
+.card1 h3 {
     font-weight: 900;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
   
 .acontent7{
     margin-top: 170px;
     display: flex;
-    gap: 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .foto7 img{
@@ -459,42 +485,38 @@ body{
     max-width: 100%;
 }
 
-.foto7 {
-    /* width: 500px; */
+.foto7 img {
+    width: 100%;
+    object-fit: cover;
 }
 
-.nutrition{
-    width: 50%;
+.card{
+    width: 800px;
     margin-left: 50px;
     background-color: #f2f9fd;
     height: 700px;
 }
 
 
-.content7a h2{
-    text-align: center; 
-    font-weight: 800; 
-    margin-top: 30px;
+.content7a{
+    display:grid;
+    justify-content: center;
 }
 
-.content7b h2{
-    text-align: center;
-    font-weight: 800; 
+.content7a h2{
+    text-align: center; 
+    font-weight: 900; 
     margin-top: 30px;
 }
 
 .content7a p{
     text-align: center;
     margin-top: 30px;
-}
-
-.content7b p{
-    text-align: center;
-    margin-top: 30px;
+    width: 400px;
 }
 
 .locations{
-    width: 50%;
+    width: 800px;
     background-color: #f2f9fd;
     height: 700px;
     /* background-color: #E31837; */
@@ -536,12 +558,20 @@ body{
 }
 
 .acontent8{
-    margin-top: 170px;
+    margin-top: 150px;
 }
 
 .content8b{
     display: flex;
     gap: 30px;
+    justify-content: center;
+}
+
+.content8a{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 40px;
+
 }
 
 .content8a h2{
@@ -553,9 +583,8 @@ body{
 
 .content8a p {
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
-    display:inline;
 }
 
 .merah{
