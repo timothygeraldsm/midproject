@@ -45,6 +45,12 @@ body{
     font-size: 14px;
 }
 
+.navbarkanan ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .judulkiri p{
     
