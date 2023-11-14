@@ -799,6 +799,22 @@ body{
 
 }
 
+.ff2{
+    margin-top: 190px;
+    display:grid;
+    justify-content: center;
+    line-height: 2;
+    padding: 70px 100px;
+}
+
+.ff2 h1{
+    color: white;
+}
+
+.ff2 p{
+    color: white;
+}
+
 .bgbiodata{
     background-color: var(--colormain);
 }
@@ -823,6 +839,11 @@ body{
 .contactus1 h2{
     color: white;
     text-align: center;
+    font-weight: 900;
+}
+
+.contactus1{
+    color: white;
 }
 
 
