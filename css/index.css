@@ -789,3 +789,26 @@ body{
     margin-top: 20px;
 
 }
+
+.biodata2{
+    margin-top: 300px;
+    display:grid;
+    justify-content: center;
+    line-height: 2;
+    padding: 70px 0px;
+
+}
+
+.bgbiodata{
+    background-color: var(--colormain);
+}
+
+.biodata2 h2{
+    color:white ;
+    font-weight:900;
+}
+
+.biodata2 p{
+    font-weight: 600;
+    color: white;
+}
