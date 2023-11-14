@@ -791,7 +791,7 @@ body{
 }
 
 .biodata2{
-    margin-top: 300px;
+    margin-top: 190px;
     display:grid;
     justify-content: center;
     line-height: 2;
@@ -811,4 +811,59 @@ body{
 .biodata2 p{
     font-weight: 600;
     color: white;
+}
+
+
+
+.contactus1{
+    margin-top: 230px;
+    padding: 40px 0;
+}
+
+.contactus1 h2{
+    color: white;
+    text-align: center;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.gender-options, .hobby-options {
+    margin-bottom: 10px;
+}
+
+.form-radio, .form-checkbox {
+    margin-right: 5px;
+}
+
+.form-submit {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #2980b9;
 }

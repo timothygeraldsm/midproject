@@ -54,19 +54,58 @@
       </div>
     </nav>
 
-<body>
+  </head>
+  <body>
+    
+    <div class=" contactus1 container bgbiodata">
+      <h2>Contact Us</h2>
 
-  <div class="biodata2 container bgbiodata">
-    <title>Biodata</title>
-
-    <h2>Biodata Information</h2>
-
-    <p><strong>Name:</strong> Timothy Geraldo Manurung</p>
-    <p><strong>Date of Birth:</strong> 30 July 2004</p>
-    <p><strong>Age:</strong> 19</p>
-    <p><strong>Address:</strong> Bandung</p>
-    <p><strong>Email:</strong> 2281045@unai.edu</p>
-    <p><strong>Hobby:</strong> Badminton</p>
+      <form action="#" method="post" class="contact-form">
+  
+          <label for="fullName" class="form-label">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" class="form-input" required>
+  
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="email" id="email" name="email" class="form-input" required>
+  
+          <label for="username" class="form-label">Username:</label>
+          <input type="text" id="username" name="username" class="form-input" required>
+  
+          <label for="password" class="form-label">Password:</label>
+          <input type="password" id="password" name="password" class="form-input" required>
+  
+          <label class="form-label">Gender:</label>
+          <div class="gender-options">
+              <input type="radio" id="male" name="gender" value="male" class="form-radio" required>
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" class="form-radio" required>
+              <label for="female">Female</label>
+          </div>
+  
+          <label for="religion" class="form-label">Religion:</label>
+          <select id="religion" name="religion" class="form-select" required>
+              <option value="christianity">Christianity</option>
+              <option value="islam">Islam</option>
+              <option value="hinduism">Hinduism</option>
+              <!-- Add more options as needed -->
+          </select>
+  
+          <label for="address" class="form-label">Address:</label>
+          <textarea id="address" name="address" rows="4" class="form-textarea" required></textarea>
+  
+          <label class="form-label">Hobbies:</label>
+          <div class="hobby-options">
+              <input type="checkbox" id="reading" name="hobbies[]" value="reading" class="form-checkbox">
+              <label for="reading">Reading</label>
+              <input type="checkbox" id="traveling" name="hobbies[]" value="traveling" class="form-checkbox">
+              <label for="traveling">Traveling</label>
+              <!-- Add more checkboxes as needed -->
+          </div>
+  
+          <input type="submit" value="Save" class="form-submit">
+  
+      </form>
+  
 
     </div>
 
